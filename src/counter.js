@@ -1,6 +1,6 @@
 import React from "react";
 
-const ErrorComponent = () => <div>{props.ignore}</div>;
+//const ErrorComponent = () => <div>{props.ignore}</div>;
 
 export default class Counter extends React.Component {
   constructor(props) {
@@ -60,7 +60,7 @@ export default class Counter extends React.Component {
         <button onClick={this.decrement}>Decrement</button>
 
         <div className="counter">Counter: {this.state.counter}</div>
-        <ErrorComponent />
+        {/* <ErrorComponent /> */}
       </div>
     );
   }
